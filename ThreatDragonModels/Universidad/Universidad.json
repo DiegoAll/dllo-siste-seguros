@@ -28,6 +28,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Browser Client"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -40,7 +43,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Browser Client",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -128,6 +131,9 @@
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "Browser Client"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -140,7 +146,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Browser Client",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
