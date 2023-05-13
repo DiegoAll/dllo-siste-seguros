@@ -39,8 +39,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "1d20c9aa-517e-4b38-b97b-9652f120e3d5",
             "zIndex": 1,
+            "id": "1d20c9aa-517e-4b38-b97b-9652f120e3d5",
             "data": {
               "type": "tm.Process",
               "name": "Browser Client",
@@ -70,8 +70,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "da1b69ad-d7e1-427c-bba2-d2f143cc92ed",
             "zIndex": 2,
+            "id": "da1b69ad-d7e1-427c-bba2-d2f143cc92ed",
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -81,13 +81,6 @@
               "providesAuthentication": false,
               "hasOpenThreats": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -108,8 +101,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "26656c3c-d8ba-4681-a00b-69506f3fe771",
             "zIndex": 3,
+            "id": "26656c3c-d8ba-4681-a00b-69506f3fe771",
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -142,8 +135,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "4adc16e2-c17f-4071-91e5-4a6309b45c25",
             "zIndex": 4,
+            "id": "4adc16e2-c17f-4071-91e5-4a6309b45c25",
             "data": {
               "type": "tm.Process",
               "name": "Browser Client",
@@ -328,6 +321,54 @@
               {
                 "x": 300,
                 "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "trust-broundary-curve",
+            "attrs": {
+              "line": {
+                "targetMarker": "",
+                "sourceMarker": ""
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "labels": [
+              {
+                "attrs": {
+                  "text": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "ba6de7e6-78af-4b7d-8397-785ad8059b38",
+            "source": {
+              "x": 520,
+              "y": -20
+            },
+            "target": {
+              "x": 650,
+              "y": 510
+            },
+            "vertices": [
+              {
+                "x": 520,
+                "y": 240
+              },
+              {
+                "x": 540,
+                "y": 410
               }
             ]
           }
